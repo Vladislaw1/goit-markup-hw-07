@@ -276,7 +276,7 @@ header {
   font-weight: 700;
   line-height: 1.8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
 
   background-color: var(--secondary-color);
   border: 6px solid var(--secondary-color);
@@ -594,7 +594,7 @@ header {
   font-family: var(--font-text-title);
   font-size: 16px;
   font-weight: 700;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
 
   background-color: var(--secondary-color);
   border: none;
