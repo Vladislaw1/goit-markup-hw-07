@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --font-text-title: 'Roboto', sans-serif;
   --font-text-logo: 'Raleway', sans-serif;
   --title-text-color: #212121;
@@ -69,7 +69,7 @@
   fill: #2196f3;
 }
 /*=======================TEXT======================*/
-
+/* 
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -217,10 +217,13 @@
   background-position: center;
   border-color: #2196f3;
 }
+.checkbox-form:focus + .lable-checbox-form::before {
+  outline: 2px solid purple;
+}
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
+  /* clip: rect(1px, 1px, 1px, 1px);
   padding: 0 !important;
   border: 0 !important;
   height: 1px !important;
@@ -229,4 +232,4 @@
 }
 .link-form {
   color: #2196f3;
-}
+} */ 
